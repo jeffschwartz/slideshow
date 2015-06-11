@@ -61,7 +61,6 @@
     imageEl.setAttribute('class', 'imageviewer-img');
     innerContainerEl.appendChild(imageEl);
     outerContainerEl.appendChild(innerContainerEl);
-    // innerContainerEl.textContent = 'abc';
 
     //Override style attributes
     if(outerBgColor){
@@ -90,6 +89,7 @@
     index = 0;
     imageEl.setAttribute('src', images[index]);
 
+    //... and pause
     setTimeout(function(){
         pause(imageEl);
     }, 1);
