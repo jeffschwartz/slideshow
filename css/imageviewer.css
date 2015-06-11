@@ -1,0 +1,16 @@
+.imageviewer-outer-container {
+    width: 100%;
+    background-color: #fff;
+}
+
+.imageviewer-inner-container {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+}
+
+.imageviewer-img {
+    margin: 0 auto;
+    opacity: 1;
+    border: none;
+}
